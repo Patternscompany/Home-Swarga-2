@@ -13083,9 +13083,12 @@ li .single-footer-contact-info .text p span{
     width:120px;
 }
 
+/* Join as a professional Style */
 
-
-
-
-
-
+.professional-bg-container{
+    background-image: url("/images/join-as-a-professional/join-as-a-professional.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}

@@ -177,7 +177,7 @@ li{
 .btn-one {
     position: relative;
     display: inline-block;
-    background: #e9212e;
+    background: #03E8BF;
     color: #ffffff;
     font-size: 15px;
     line-height: 60px;
@@ -929,12 +929,14 @@ select:focus {
     position: relative;
     display: block;
     z-index: 999;
+    height:10px;
 }
 .main-header.header-style1{}
 .header-upper-style1{
     position: relative;
     display: block;  
-    background: #f6f6f6;
+    background:#008B24 ;
+    
 }
 .header-upper-style1.fixed-header .inner-container {
     position: fixed;
@@ -971,7 +973,7 @@ select:focus {
     display: block;
     padding: 0 40px;
     margin-top: -45px;
-    background: #ffffff;
+    background: white;
     -webkit-box-shadow: 0px 4px 11px -1px #ECECEC; 
     box-shadow: 0px 4px 11px -1px #ECECEC;
     z-index: 9999999999;
@@ -1364,7 +1366,7 @@ select:focus {
 .header-lower-style1 {
     position: relative;
     display: block;
-    background: #f6f6f6;
+    background-color: #008B24;
     padding: 30px 0;
 }
 .header-lower-style1 .inner-content{
@@ -1458,7 +1460,7 @@ select:focus {
 }
 .header-social-links-style1 li a:hover i{
     color: #ffffff;
-    background: #e9212e;
+    background: #C52AB6;
     transform: rotate(360deg);
 }
 
@@ -1522,7 +1524,7 @@ select:focus {
     transition: all 500ms ease;
 }
 .main-slider .slide-content .btn-box a.project-view-button:hover{
-    color: #e9212e;
+    color: #03E8BF;
 }
 .main-slider .slide-content .btn-box a.project-view-button:before {
     position: absolute;
@@ -1582,7 +1584,7 @@ select:focus {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: #e9212e;
+    background: #03E8BF;
     text-align: center; 
 }
 .main-slider.style2 .slide-content .btn-box a.play-button span:before{
@@ -1717,7 +1719,7 @@ select:focus {
     background: #ffffff;
     margin: 0 auto;
     border-radius: 50%;
-    border: 3px solid #e9212e;
+    border: 3px solid #C52AB6;
     text-align: center;
     z-index: 3;
 }
@@ -1728,7 +1730,7 @@ select:focus {
     bottom: -1px;
     right: -1px;
     content: "";
-    background: #e9212e;
+    background: #C52AB6;
     border-radius: 50%;
     transition: all 0.5s ease-in-out 0s;
     transform-style: preserve-3d;
@@ -1780,7 +1782,7 @@ select:focus {
     color: #27282c;
 }
 .single-highlight-box:hover .inner-content a{
-    color: #e9212e;    
+    color: #C52AB6;    
 }
 
 
@@ -4340,7 +4342,8 @@ select:focus {
 }
 .slogan-style2-area .inner-content .button a.call-us{
     color: #ffffff;
-    background: #e9212e;
+    background: #03E8BF
+    ;
 }
 .slogan-style2-area .inner-content .button a.call-us i:before {
     position: relative;
@@ -5050,7 +5053,7 @@ select:focus {
 .content-info-box .inner-content .single-info-box{
     max-width: 270px;
     width: 100%;
-    background: #e9212e;
+    background: #03E8BF;
     text-align: center;
     padding: 50px 30px 42px;
 }
@@ -5078,7 +5081,7 @@ select:focus {
     background: #f4f4f4;
 }
 .content-info-box .inner-content .single-info-box.white-bg .icon span:before{
-    color: #e9212e;    
+    color: #03E8BF;    
 }
 .content-info-box .inner-content .single-info-box.white-bg .text h3{
     color: #27282c;    
@@ -13025,7 +13028,10 @@ li .single-footer-contact-info .text p span{
 .timer-box .subscribe-box .text p span{
     font-weight: 600;
 }
-
+.logo-style{
+    height:90px;
+    width:120px;
+}
 
 
 

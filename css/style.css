@@ -1375,7 +1375,7 @@ select:focus {
 .header-lower-style1 {
     position: relative;
     display: block;
-    background-color: #008B24;
+    background-color: black;
     padding: 30px 0;
 }
 .header-lower-style1 .inner-content{

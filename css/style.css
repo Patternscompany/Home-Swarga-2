@@ -13090,3 +13090,11 @@ li .single-footer-contact-info .text p span{
 .text-pblue{
     color: #14145F;
 }
+.professional-service-container{
+    padding-inline: 100px;
+}
+.professional-subheading{
+    font-size: 30px;
+    padding-bottom: 50px;
+    line-height: 34px;
+}

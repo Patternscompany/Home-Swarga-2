@@ -184,7 +184,7 @@ li{
 .btn-one {
     position: relative;
     display: inline-block;
-    background: #03E8BF;
+    background: #C52AB6 ;
     color: #ffffff;
     font-size: 15px;
     line-height: 60px;
@@ -282,7 +282,7 @@ li{
 
 
 .sec-title p{
-    color: #e9212e;
+    color: #C52AB6 ;
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
@@ -293,7 +293,7 @@ li{
 .sec-title .title {
     position: relative;
     display: block;
-    color: #27282c;
+    color: #014AEE;
     font-size: 36px;
     line-height: 44px;
     font-weight: 700;
@@ -305,6 +305,7 @@ li{
 }
 .sec-title .title span{
     font-weight: 400;
+    color: #008B24;
 }
 .sec-title .bottom-text{
     color: #7c7e84;
@@ -1694,52 +1695,18 @@ select:focus {
 }
 
 
-
-.slide-mask-content {
-    position: relative;
-    width: 100%;
-    height: 100%;
+.tp-caption {
+    position: relative; /* Ensure proper stacking */
 }
 
-.slide-mask {
+.overlay-mask {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(25, 24, 77); /* Adjust the color and opacity as needed */
-    z-index: 1;
-}
-
-.slide-content-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 2;
-    color: white;
-}
-
-.big-title {
-    font-size: 48px; /* Adjust as needed */
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.text {
-    font-size: 24px; /* Adjust as needed */
-    margin-bottom: 20px;
-}
-
-.btn-box .btn-one, .btn-box .project-view-button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    color: white;
-    background-color: rgb(25, 24, 77); /* Adjust as needed */
-    border-radius: 5px;
-    text-decoration: none;
+    background-color: rgba(25, 24, 77, 0.5); /* Adjust the alpha value (last parameter) for transparency */
+    z-index: 1; /* Ensure the overlay is above the background image */
 }
 
 
@@ -1776,7 +1743,7 @@ select:focus {
     background: #ffffff;
     margin: 0 auto;
     border-radius: 50%;
-    border: 3px solid #C52AB6;
+    border: 3px solid #008B24;
     text-align: center;
     z-index: 3;
 }
@@ -1787,7 +1754,7 @@ select:focus {
     bottom: -1px;
     right: -1px;
     content: "";
-    background: #C52AB6;
+    background: #008B24;
     border-radius: 50%;
     transition: all 0.5s ease-in-out 0s;
     transform-style: preserve-3d;
@@ -1835,7 +1802,7 @@ select:focus {
 .single-highlight-box .inner-content a{
     position: relative;
     display: block;
-    background: #f6f6f6;
+    background: #C52AB6;
     color: #27282c;
 }
 .single-highlight-box:hover .inner-content a{
@@ -1964,7 +1931,7 @@ select:focus {
 .about-carousel-box{
     position: relative;
     display: block;
-    background: #e9212e;
+    background: #C52AB6;
     padding: 41px 41px 37px;
     z-index: 1;
 }
@@ -1974,7 +1941,7 @@ select:focus {
     bottom: -30px;
     font-family: "Flaticon";
     content: "\f103";
-    color: #e9212e;
+    color: #C52AB6;
     font-size: 40px;
     line-height: 40px;
     transform: perspective(1200px) rotateY(180deg) translateZ(0px);
@@ -2041,8 +2008,8 @@ select:focus {
 	display: none;	
 }
 .about-carousel-box .owl-dots .owl-dot.active{
-	background: #e9212e;
-    border-color: #e9212e;
+	background: #C52AB6;
+    border-color: #C52AB6;
 }
 
 
